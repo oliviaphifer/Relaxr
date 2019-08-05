@@ -1,0 +1,164 @@
+/* || page layout */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1{
+  text-align: center;
+  margin: -12px 0px 0px 0px;
+  text-transform: uppercase;
+  font-size: 25px;
+  float: left;
+  margin-top: -30px;
+  padding-left: 10px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px;
+}
+
+p{
+  font-size: 15px;
+}
+
+/* || header layout */
+
+header{
+  background-color: rgba(30,50,150,1);
+  padding: 0.5px 0px 10px 0px;
+  margin-top: 12px;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+/* || main layout */
+
+main{
+ padding: 40px 0px 50px 0px;
+ display: flex;
+ background-color: #E1F5FE
+}
+
+img {
+  width: 500px;
+  padding: 10px;
+}
+
+#paragraph{
+  padding:10px;
+  text-align: justify;
+}
+
+section{
+  flex: 2;
+}
+
+/* || aside layout */
+
+aside{
+  flex: 1;
+  padding-top: 23px;
+}
+
+aside ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.categories li a{
+  text-decoration: none;
+  color: grey;
+}
+
+.categories li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover{
+  color: blue;
+}
+
+#square{
+  height: 170px;
+  width: 200px;
+  background-color: white;
+  padding: 15px;
+  color: grey;
+}
+
+/* || footer layout */
+
+footer {
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0,23,45,0.1)
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+  padding: 10px;
+}
+
+footer li {
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+li a {
+  color: black;
+}
+
+footer a:hover {
+  color: blue;
+}
