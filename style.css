@@ -78,7 +78,8 @@ a:hover{
 main{
  padding: 40px 0px 50px 0px;
  display: flex;
- background-color: #E1F5FE
+ background-color: #E1F5FE;
+ margin: 0 auto;
 }
 
 img {
